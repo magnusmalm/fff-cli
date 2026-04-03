@@ -1,4 +1,4 @@
-# fff
+# fff-cli
 
 A fast file finder and grep for the terminal. Fuzzy search with typo tolerance, content grep with bigram pre-filtering, frecency-ranked results.
 
