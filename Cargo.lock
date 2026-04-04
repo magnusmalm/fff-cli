@@ -532,7 +532,7 @@ dependencies = [
 [[package]]
 name = "fff-grep"
 version = "0.5.1"
-source = "git+https://github.com/magnusmalm/fff.nvim.git?rev=30843e2#30843e24ce11cdc9fdefe9e1f15f8e9e8c09951b"
+source = "git+https://github.com/dmtrKovalenko/fff.nvim.git#db4cd2825c32e5e53e12bb8af106ff724d33904e"
 dependencies = [
  "bstr",
  "memchr",
@@ -541,7 +541,7 @@ dependencies = [
 [[package]]
 name = "fff-query-parser"
 version = "0.5.1"
-source = "git+https://github.com/magnusmalm/fff.nvim.git?rev=30843e2#30843e24ce11cdc9fdefe9e1f15f8e9e8c09951b"
+source = "git+https://github.com/dmtrKovalenko/fff.nvim.git#db4cd2825c32e5e53e12bb8af106ff724d33904e"
 dependencies = [
  "zlob",
 ]
@@ -549,7 +549,7 @@ dependencies = [
 [[package]]
 name = "fff-search"
 version = "0.5.1"
-source = "git+https://github.com/magnusmalm/fff.nvim.git?rev=30843e2#30843e24ce11cdc9fdefe9e1f15f8e9e8c09951b"
+source = "git+https://github.com/dmtrKovalenko/fff.nvim.git#db4cd2825c32e5e53e12bb8af106ff724d33904e"
 dependencies = [
  "ahash",
  "aho-corasick",

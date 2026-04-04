@@ -14,8 +14,8 @@ default = []
 zlob = ["fff/zlob"]
 
 [dependencies]
-fff = { package = "fff-search", git = "https://github.com/magnusmalm/fff.nvim.git", rev = "30843e2", default-features = false }
-fff-query-parser = { git = "https://github.com/magnusmalm/fff.nvim.git", rev = "30843e2", default-features = false }
+fff = { package = "fff-search", git = "https://github.com/dmtrKovalenko/fff.nvim.git", default-features = false }
+fff-query-parser = { git = "https://github.com/dmtrKovalenko/fff.nvim.git", default-features = false }
 
 mimalloc = "0.1.47"
 clap = { version = "4", features = ["derive", "env"] }

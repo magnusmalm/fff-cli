@@ -296,7 +296,7 @@ pub fn read_bigram_index(path: &Path) -> Result<BigramFilter> {
         dense_data[i] = u64::from_le_bytes(data[off..off + 8].try_into().unwrap());
     }
 
-    Ok(BigramFilter::from_raw_parts(
+    Ok(BigramFilter::new(
         lookup,
         dense_data,
         dense_count,
